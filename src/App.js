@@ -1,11 +1,12 @@
-import './App.css';
-import RewardPoints from './RewardPoints'; 
+import React from 'react';
+import RewardPoints from './components/RewardPoints';
+
 function App() {
   return (
     <div className="App">
-        <RewardPoints />
+      <RewardPoints />
     </div>
-);
+  );
 }
 
 export default App;
